@@ -15,6 +15,16 @@ img {
 
 /*----------------header---------------*/
 
+.header-section__btn {
+  background: #222222;
+  border: none;
+  cursor: pointer;
+}
+
+.header-section__icon {
+  cursor: pointer;
+}
+
 .header {
   height: 75px;
   margin: 0 auto;
@@ -95,6 +105,7 @@ img {
 .section-two__box-one {
   grid-area: a;
   background-image: url(./image/for-women.png);
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,6 +114,7 @@ img {
 .section-two__box-two {
   grid-area: b;
   background-image: url(./image/for-men.png);
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,6 +124,7 @@ img {
 .section-two__box-three {
   grid-area: c;
   background-image: url(./image/for-kids.png);
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,6 +134,7 @@ img {
 .section-two__box-four {
   grid-area: d;
   background-image: url(./image/accesories.png);
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
